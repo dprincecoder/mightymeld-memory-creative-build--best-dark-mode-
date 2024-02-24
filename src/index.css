@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+
+:root {
+  --primary-color: #f5f5f5;
+  --text-color: #242526;
+}
+
+[data-theme="dark"] {
+  --primary-color: #1b1b1d;
+  --text-color: #f5f5f5;
+  --navbar-bg: #242526;
+}
